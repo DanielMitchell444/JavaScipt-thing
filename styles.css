@@ -1,0 +1,130 @@
+*{
+ margin: 0;
+ padding:0;
+}
+
+body{
+ background-color: #ffff;
+}
+/*Header CSS*/
+.header{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 40px;
+}
+/* CSS for buttons */
+.button{
+  width: 150px;
+  margin-right: 5px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/*CSS FOR LABELS */
+.labels{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#playerLabel{
+    text-align: center;
+    
+}
+
+#computerLabel{
+  text-align: center;
+  padding-left: 15px;
+ }
+
+ /*CSS FOR HEADINGS*/
+h1{
+ font-size: 32px;
+}
+
+h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+/*CSS FOR PLAYER SCORE */
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.player-score{
+  border: 5px solid rgb(27, 27, 31) ;
+  display: flex;
+  margin-right: 5px;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+}
+
+.computer-score{
+    border: 5px solid rgb(27, 27, 31);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+.playerLabel{
+  display: flex;
+  justify-content: center;
+  align-items: center
+  ;
+}
+
+/*label for results */
+.labelResults{
+  display: block;
+}
+
+#resultsLabel{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+}
+
+.results{
+    width: 300px;
+    height: 100px;
+    border: 5px solid rgb(27, 27, 31);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px; 
+}
+
+.playBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+@media(min-width: 500px){
+  .button{
+   width: 100px;
+  }
+}
+
+@media(min-width: 800px){
+  .button{
+    width: 150px;
+  }
+}
+
